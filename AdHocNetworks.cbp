@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AdHocNetworks" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/AdHocNetworks" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="./" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AdHocNetworks" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="ccadp.cpp" />
+		<Unit filename="ccadp.h" />
+		<Unit filename="ccapdp.cpp" />
+		<Unit filename="ccapdp.h" />
+		<Unit filename="ccatdp.cpp" />
+		<Unit filename="ccatdp.h" />
+		<Unit filename="link.cpp" />
+		<Unit filename="link.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="network.cpp" />
+		<Unit filename="network.h" />
+		<Unit filename="networktopology.cpp" />
+		<Unit filename="networktopology.h" />
+		<Unit filename="node.cpp" />
+		<Unit filename="node.h" />
+		<Unit filename="nodeposition.cpp" />
+		<Unit filename="nodeposition.h" />
+		<Unit filename="odp.cpp" />
+		<Unit filename="odp.h" />
+		<Unit filename="opdp.cpp" />
+		<Unit filename="opdp.h" />
+		<Unit filename="otdp.cpp" />
+		<Unit filename="otdp.h" />
+		<Unit filename="set.cpp" />
+		<Unit filename="set.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
