@@ -1,6 +1,7 @@
 # A Contention and Collision Aware Timer-based Proactive Approach of Broadcasting to Enhance Reachability for Wireless Ad-hoc Networks
 
-## Broadcast Storm Problem:During the broadcast in wireless network 3 problems arise,those three problems are called together broadcast storm problems.Those Three Problems are:
+## Broadcast Storm Problem:
+During the broadcast in wireless network 3 problems arise,those three problems are called together broadcast storm problems.Those Three Problems are:
 - Redundency
 - Contention
 - Collision
@@ -20,4 +21,4 @@ simultaneously, leading to collisions.
 When contention and collision occurs then the reachibility of the message reduce.But the main condition of the broadcasting is to ensure the reachibility of the message to all nodes.To achieve this we have used a timer mechanisim to reduce the contention and collision problem.
 
 To see details you can download the paper from given link:
-**[paper_link]([https://example.com](https://drive.google.com/file/d/12oSHrkwSya3WQmN_ti0KvxxIWlAbm1DJ/view?usp=sharing))**
+**[paper_link](https://example.com](https://drive.google.com/file/d/12oSHrkwSya3WQmN_ti0KvxxIWlAbm1DJ/view?usp=sharing))**
